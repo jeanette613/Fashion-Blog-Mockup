@@ -1,0 +1,35 @@
+html {
+    font-family: sans-serif;
+    border-color: lightgray;
+    border-width: 5px;
+    border-left-style: solid;
+    margin: 10px;
+}
+
+body {
+    min-height: 100%;
+    max-width: 1000px;
+}
+
+;
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
