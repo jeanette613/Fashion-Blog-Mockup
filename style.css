@@ -25,6 +25,16 @@ header {
     padding: 1rem 2rem 1rem 2rem;
 }
 
+article {
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-spacing: 2rem;
+    padding-bottom: 4rem;
+    margin: 10px;
+}
+
+
 main {
     padding: 1rem 2rem 1rem 2rem;
 }
@@ -38,6 +48,16 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+.copy {
+    color: lightgray;
+}
+
+h5 {
+    text-align: right;
+    text-emphasis-style: bold;
+    color: tomato;
 }
 
 footer {
