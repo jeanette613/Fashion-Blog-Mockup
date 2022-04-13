@@ -6,12 +6,20 @@ html {
     margin: 10px;
 }
 
+.topNav {
+    letter-spacing: 1px;
+    justify-content: justify;
+    color: lightgray;
+}
+
 body {
     min-height: 100%;
     max-width: 1000px;
 }
 
-;
+p {
+    font-size: larger;
+}
 
 header {
     padding: 1rem 2rem 1rem 2rem;
@@ -27,9 +35,15 @@ h1 {
 
 ul {
     padding: 0;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
 }
 
 footer {
     padding: 1rem 2rem 1rem 2rem;
+}
+
+.btNav {
+    color: tomato;
 }
