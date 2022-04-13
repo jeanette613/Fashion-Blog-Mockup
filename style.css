@@ -7,8 +7,10 @@ html {
 }
 
 .topNav {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
     letter-spacing: 1px;
-    justify-content: justify;
     color: lightgray;
 }
 
@@ -46,8 +48,21 @@ h1 {
 ul {
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-resize;
     list-style-type: none;
+}
+
+h3 {
+    color: lightgray;
+}
+
+p::first-letter {
+    font-size: 400%
+}
+
+p {
+    color: lightgray;
+    word-break: break-all;
 }
 
 .copy {
