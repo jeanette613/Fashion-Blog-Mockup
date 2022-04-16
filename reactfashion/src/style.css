@@ -1,0 +1,85 @@
+html {
+    font-family: sans-serif;
+    border-color: lightgray;
+    border-width: 5px;
+    border-left-style: solid;
+    margin: 10px;
+}
+
+.topNav {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    letter-spacing: 1px;
+    color: lightgray;
+}
+
+body {
+    min-height: 100%;
+    max-width: 1000px;
+}
+
+p {
+    font-size: larger;
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+article {
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-spacing: 2rem;
+    padding-bottom: 4rem;
+    margin: 10px;
+}
+
+
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row-resize;
+    list-style-type: none;
+}
+
+h3 {
+    color: lightgray;
+}
+
+p::first-letter {
+    font-size: 400%
+}
+
+p {
+    color: lightgray;
+    word-break: break-all;
+}
+
+.copy {
+    color: lightgray;
+}
+
+h5 {
+    text-align: right;
+    text-emphasis-style: bold;
+    color: tomato;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.btNav {
+    color: tomato;
+    flex-direction: row;
+}

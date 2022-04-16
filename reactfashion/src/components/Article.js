@@ -13,13 +13,14 @@ export default function Article(props) {
                     const { date, title, img, altImg, entry } = article;
                     return (
                         <article>
-                            <h1>{date}</h1>
-                            <h2>{title}</h2>
+                            <h3>{date}</h3>
+                            <h4>{title}</h4>
                             <img
                                 src={img}
                                 alt={altImg}
                             />
                             <p>{entry}</p>
+                            <h5>Continues...</h5>
                         </article>
                     );
                 })}
